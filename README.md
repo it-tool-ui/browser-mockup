@@ -10,11 +10,11 @@ You can also view the demo and get the source code directly for each component w
 ## Installation
 
 ```sh
-npm install @simple-ui/button
+npm install @it-tool-ui/button
 ```
 
 ```js
-import { Button } from "@simple-ui/button";
+import { Button } from "@it-tool-ui/button";
 
 <Button
   buttonColor="primary"
