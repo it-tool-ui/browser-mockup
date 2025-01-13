@@ -1,6 +1,6 @@
 {
   "name": "@it-tool-ui/button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": {
     "name": "Nguyen Dinh Truong",
@@ -72,5 +72,5 @@
   "bugs": {
     "url": "https://github.com/it-tool-ui/button/issues"
   },
-  "homepage": "https://github.com/it-tool-ui/button#readme"
+  "homepage": "https://it-tool.app/button"
 }
