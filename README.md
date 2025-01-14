@@ -1,4 +1,4 @@
-# React Simple UI
+# React Button UI component
 
 This is a very light UI Button component library for ReactJS.
 It's using TailwindCSS for styling.

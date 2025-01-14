@@ -1,14 +1,8 @@
-import type { VariantProps } from "class-variance-authority";
-import { forwardRef } from "react";
+import React from "react";
 import { buttonVariants } from "./button.helpers";
+import type { ButtonProps } from "./button.types";
 
-interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {
-  children: React.ReactNode;
-}
-
-const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     { variant, buttonColor, radius, size, className, children, ...props },
     ref
