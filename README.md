@@ -1,28 +1,27 @@
-# React Button UI component
+# React BrowserMockup UI component
 
-This is a very light UI Button component library for ReactJS.
+This is a very light UI BrowserMockup component library for ReactJS.
 It's using TailwindCSS for styling.
 
 You can also view the demo and get the source code directly for each component without installing this library.
 
-- [Preview and get the code](https://it-tool.app/button)
+- [Preview and get the code](https://it-tool.app/browser-mockup)
 
 ## Installation
 
 ```sh
-npm install @it-tool-ui/button
+npm install @it-tool-ui/browser-mockup
 ```
 
 ```js
-import { Button } from "@it-tool-ui/button";
+import { BrowserMockup } from "@it-tool-ui/browser-mockup";
 
-<Button
-  buttonColor="primary"
-  radius="large"
-  size="medium"
-  variant="solid"
-  disabled={false}
+<BrowserMockup
+  variant="full"
+  hasButtonColor={true}
+  title="Google!"
+  href="https://google.com"
 >
-  Click me
-</Button>;
+  <h1 className="text-red-500">Hello world</h1>
+</BrowserMockup>;
 ```
