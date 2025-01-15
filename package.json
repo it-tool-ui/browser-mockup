@@ -1,12 +1,12 @@
 {
-  "name": "@it-tool-ui/button",
-  "version": "1.0.7",
+  "name": "@it-tool-ui/browser-mockup",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Nguyen Dinh Truong",
     "email": "nguyendinhtruong98@gmail.com"
   },
-  "description": "UI Button Component with React & Typescript with TailwindCSS",
+  "description": "UI BrowserMockup Component with React & Typescript with TailwindCSS",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -31,11 +31,11 @@
     "preview": "vite preview",
     "release": "sh ./scripts/release.sh"
   },
-  "peerDependencies": {
+  "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "react": ">=18.x <20.x",
-    "react-dom": ">=18.x <20.x",
+    "react": "^18.3.1 || ^19.0.0",
+    "react-dom": "^18.3.1 || ^19.0.0",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7",
     "tailwindcss-animation-delay": "^2.0.1"
@@ -45,7 +45,7 @@
     "@types/node": "^22.7.5",
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.2",
+    "@vitejs/plugin-react": "^4.3.4",
     "@vitejs/plugin-react-swc": "^3.7.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.11.1",
@@ -67,10 +67,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/it-tool-ui/button.git"
+    "url": "git+https://github.com/it-tool-ui/browser-mockup.git"
   },
   "bugs": {
-    "url": "https://github.com/it-tool-ui/button/issues"
+    "url": "https://github.com/it-tool-ui/browser-mockup/issues"
   },
-  "homepage": "https://it-tool.app/button"
+  "homepage": "https://it-tool.app/browser-mockup"
 }

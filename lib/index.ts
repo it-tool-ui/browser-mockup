@@ -1,5 +1,5 @@
 import "./index.css";
-import Button from "./components/button.component";
-import type { ButtonProps } from "./components/button.types";
+import BrowserMockup from "./components/browser-mockup.component";
+import type { BrowserMockupProps } from "./components/browser-mockup.types";
 
-export { Button, ButtonProps };
+export { BrowserMockup, BrowserMockupProps };
